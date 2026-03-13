@@ -1,4 +1,10 @@
-*{
+:root{
+  --main-color: #abcab8;
+  --nav-color: #6aad86;
+  --bg-color: white;
+  --red: rgb(129, 49, 49);
+}
+* {
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -9,11 +15,18 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+}
 
 body {
-  background: #6aad86;
+  background: var(--bg-color);
   text-align: center;
 }
+
+
 
 
 h1 {
