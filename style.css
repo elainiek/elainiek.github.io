@@ -2,7 +2,7 @@
   --main-color: #abcab8;
   --nav-color: #6aad86;
   --bg-color: #abcab8;
-  --red: rgb(129, 49, 49);
+  --pink: #f69999;
 }
 * {
   margin:0;
@@ -48,8 +48,8 @@ body {
 }
 .header .navbar a:hover {
   color:var(--red);
-  border-top: .3rem solid var(--red);
-  border-bottom: .3rem solid var(--red);
+  border-top: .3rem solid var(--pink);
+  border-bottom: .3rem solid var(--pink);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
