@@ -12,7 +12,8 @@
   outline:none;
   text-decoration: none;
   text-transform: capitalize;   
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  transition: all .5s ease-in;
 }
 
 html {
@@ -53,8 +54,6 @@ body {
   border-bottom: .3rem solid var(--red);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-
-
 }
 
 h1 {
