@@ -28,7 +28,7 @@ body {
 
 header{
   background-color: var(--nav-color);
-  
+
 }
 
 
@@ -45,6 +45,6 @@ nav a {
   font-weight: bold;
   text-align: center;
   color:#fcbaba;
-  background-color: forestgreen;
+  background-color: var(--nav-color);
 }
 
