@@ -39,7 +39,7 @@ body {
   z-index: 1000;
 }
 .header .logo img{
-  height:6rem;
+  height: 6rem;
   border-radius: 50%;
 }
 .header .navbar a{
@@ -55,11 +55,4 @@ h1 {
   text-align: center;
 }
 
-nav a {
-  list-style: none;
-  width:200px;
-  font-weight: bold;
-  color:#fcbaba;
-  background-color: var(--nav-color);
-}
 
