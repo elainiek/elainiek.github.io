@@ -26,7 +26,10 @@ body {
   text-align: center;
 }
 
-
+header{
+  background-color: var(--nav-color);
+  
+}
 
 
 h1 {
