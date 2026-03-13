@@ -41,7 +41,11 @@ body {
 .header .logo img{
   height:6rem;
   border-radius: 50%;
-
+}
+.header .navbar a{
+  color:white;
+  font-size: 1.6rem;
+  margin:0 1rem;
 }
 
 
@@ -54,7 +58,6 @@ h1 {
 nav a {
   list-style: none;
   width:200px;
-  display: block;
   font-weight: bold;
   color:#fcbaba;
   background-color: var(--nav-color);
