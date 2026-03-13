@@ -28,7 +28,15 @@ body {
 
 header{
   background-color: var(--nav-color);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 7%;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 1000;
 }
 
 
@@ -43,7 +51,6 @@ nav a {
   width:200px;
   display: block;
   font-weight: bold;
-  text-align: center;
   color:#fcbaba;
   background-color: var(--nav-color);
 }
