@@ -5,11 +5,14 @@ body {
 }
 
 h1 {
+  font-family: 'Times New Roman', Times, serif;
   color: #fcbaba;
+  text-align: center;
 }
 
 nav a {
   margin: 10px;
-  text-decoration: none;
+  text-decoration: pink;
   font-weight: bold;
+  text-align: center;
 }
