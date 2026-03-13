@@ -1,9 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border:none;
+  outline:none;
+  text-decoration: none;
+  text-transform: capitalize;   
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
 body {
-  font-family: Arial;
   background: #6aad86;
   text-align: center;
 }
-body1
+
 
 h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -13,11 +24,8 @@ h1 {
 
 nav a {
   list-style: none;
-  margin: 0;
-  padding: 0;
   width:200px;
   display: block;
-  text-decoration: #f69999;
   font-weight: bold;
   text-align: center;
   color:#fcbaba;
