@@ -40,7 +40,6 @@ body {
 }
 .header .logo img {
   height: 6rem;
-  border-radius: 50%;
 }
 .header .navbar a {
   color:white;
