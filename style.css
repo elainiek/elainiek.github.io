@@ -3,6 +3,7 @@ body {
   background: #6aad86;
   text-align: center;
 }
+body1
 
 h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -20,6 +21,6 @@ nav a {
   font-weight: bold;
   text-align: center;
   color:#fcbaba;
-  background-color: grey;
+  background-color: forestgreen;
 }
 
