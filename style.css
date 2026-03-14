@@ -38,7 +38,7 @@ body {
   right:0;
 }
 .header .logo img {
-  height: 6rem;
+  height: 7rem;
 }
 .header .navbar a {
   color:white;
@@ -55,7 +55,7 @@ body {
 }
 
 p {
-  top: 115%;
+  top: 140%;
   font-family: 'Times New Roman', Times, serif;
   color: #f69999;
   text-align: end;
