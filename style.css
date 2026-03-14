@@ -2,7 +2,7 @@
   --main-color: #abcab8;
   --nav-color: #6aad86;
   --bg-color: #abcab8;
-  --pink: #f69999;
+  --pink: #f5b7b7;
 }
 * {
   margin:0;
@@ -36,33 +36,36 @@ body {
   top:0;
   left:0;
   right:0;
-  bottom: 80%; 
+  bottom: 85%; 
 }
 .header .logo img {
-  top:0;
-  bottom: 0;
-  height: 7rem;
-
+  height: 10rem;
 }
 .header .navbar a {
   color:white;
-  font-size: 1.6rem;
-  margin:0 1rem;
-  transition: all .5s ease-in;
+  font-size: 2rem;
+  margin: 0 6rem;
 }
 .header .navbar a:hover {
-  color:var(--red);
+  color:var(--pink);
   border-top: .3rem solid var(--pink);
   border-bottom: .3rem solid var(--pink);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-
-p {
-  top: 140%;
-  font-family: 'Times New Roman', Times, serif;
-  color: #f69999;
-  text-align: end;
+.header .shaweet {
+  font-family: cursive;
+  font-size: 6rem;
+  color:white
 }
+
+.words {
+  padding-top: 15%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  color: #4f310d;
+}
+
+
 
 
