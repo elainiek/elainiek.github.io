@@ -39,7 +39,10 @@ body {
   bottom: 80%; 
 }
 .header .logo img {
+  top:0;
+  bottom: 0;
   height: 7rem;
+
 }
 .header .navbar a {
   color:white;
