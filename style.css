@@ -55,6 +55,7 @@ body {
 }
 
 p {
+  top: 115%;
   font-family: 'Times New Roman', Times, serif;
   color: #f69999;
   text-align: end;
