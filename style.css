@@ -1,8 +1,10 @@
 :root {
   --main-color: #abcab8;
   --nav-color: #6aad86;
-  --bg-color: #abcab8;
+  --bg-color: #abcab8; 
   --pink: #f5b7b7;
+
+
 }
 * {
   margin:0;
@@ -36,15 +38,16 @@ body {
   top:0;
   left:0;
   right:0;
-  bottom: 85%; 
+  height:20vh;
 }
 .header .logo img {
-  height: 10rem;
+  height: 15rem;
+  border-radius: 50%;
 }
 .header .navbar a {
   color:white;
   font-size: 2rem;
-  margin: 0 6rem;
+  margin: 0 4rem;
 }
 .header .navbar a:hover {
   color:var(--pink);
@@ -56,15 +59,26 @@ body {
 .header .shaweet {
   font-family: cursive;
   font-size: 6rem;
-  color:white
+  color:white;
 }
 
-.words {
-  padding-top: 15%;
+
+.home {
+  display:flex;
+  align-items: center;
+  margin-top:20vh;
+  min-height: 80vh;
+  background-color:aqua;
+}
+
+.home .words {
+  width:60rem;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #4f310d;
 }
+
+
 
 
 
