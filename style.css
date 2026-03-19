@@ -60,13 +60,12 @@ body {
 }
 
 .home {
-  display: flex;
+  position:relative;
   justify-content: center;
   background-color:rgb(19, 80, 22);
   margin-top:25vh;
-  margin-left: 3%;
-  margin-right: 75%;
-  width: fit-content;
+  margin-left: 5%;
+  margin-right: 5%;
   border: #f5b7b7;
   border-style: groove;
   border-radius: 5vh;
@@ -92,7 +91,7 @@ body {
 }
 
 .menu {
-  display: flex;
+  position: fixed;
   justify-content: center;
   background-color:rgb(58, 104, 60);
   width: fit-content;
@@ -100,6 +99,9 @@ body {
   border-style: double;
   border-radius: 5vh;
   border-width: 1vh;
+  top: 25vh;
+  left: 30%;
+  right: 90%;
 }
 .menu .words {
   top:1vh;
