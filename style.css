@@ -38,16 +38,18 @@ body {
   top:0;
   left:0;
   right:0;
-  height:20vh;
+  height:18vh;
 }
 .header .logo img {
-  height: 15rem;
+  position: relative;
+  height: 15vh;
   border-radius: 50%;
 }
 .header .navbar a {
+  position: relative;
   color:white;
-  font-size: 2rem;
-  margin: 0 4rem;
+  font-size: 3.5vh;
+  margin: 0 1vh;
 }
 .header .navbar a:hover {
   color:var(--pink);
@@ -64,18 +66,30 @@ body {
 
 
 .home {
+  position: fixed;
   display:flex;
-  align-items: center;
-  margin-top:20vh;
-  min-height: 80vh;
-  background-color:aqua;
+  margin-top:25vh;
+  min-height: 50vh;
+  background-color:rgb(19, 80, 22);
+  border: #f5b7b7;
+  border-style: groove;
+  border-radius: 5vh;
+  border-width: 1vh;
+  margin-left: 5vh;
+  margin-right: 125vh;
 }
 
 .home .words {
+  position:relative;
+  top:1vh;
+  margin-left: auto;
+  margin-right: auto;
   width:60rem;
   font-family: 'Times New Roman', Times, serif;
   font-size: 3rem;
-  color: #4f310d;
+  color: #efefef;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 
