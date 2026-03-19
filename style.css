@@ -29,12 +29,12 @@ body {
 }
 
 .header {
+  position: fixed;
   background-color: var(--nav-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 7%;
-  position: fixed;
   top:0;
   left:0;
   right:0;
@@ -58,30 +58,24 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.header .shaweet {
-  font-family: cursive;
-  font-size: 6rem;
-  color:white;
-}
-
 
 .home {
-  position: fixed;
+  display: flex;
+  justify-content: center;
   background-color:rgb(19, 80, 22);
+  margin-top:25vh;
+  margin-left: 3%;
+  margin-right: 75%;
+  width: fit-content;
   border: #f5b7b7;
   border-style: groove;
   border-radius: 5vh;
   border-width: 1vh;
-  margin-top:25vh;
-  margin-left: 5vh;
-  margin-right: 125vh;
 }
 .home .words {
-  position:relative;
   top:1vh;
   margin-left: auto;
   margin-right: auto;
-  width:60rem;
   font-family:'Courier New', Courier, monospace;
   font-size: 3vh;
   color: #efefef;
@@ -90,10 +84,30 @@ body {
   padding-bottom: 2vh;
 }
 .home .words h1 {
+  flex:1;
   font-size: 6vh;
 }
 .home .words img {
   border-radius: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color:rgb(58, 104, 60);
+  width: fit-content;
+  border: #f5b7b7;
+  border-style: double;
+  border-radius: 5vh;
+  border-width: 1vh;
+}
+.menu .words {
+  top:1vh;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 10rem;
+  color: #efefef;
+  padding: 1rem 1rem;
+  width: fit-content;
 }
 
 
