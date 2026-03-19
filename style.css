@@ -48,7 +48,7 @@ body {
 .header .navbar a {
   position: relative;
   color:white;
-  font-size: 3.5vh;
+  font-size: 3vh;
   margin: 0 1vh;
 }
 .header .navbar a:hover {
@@ -67,32 +67,34 @@ body {
 
 .home {
   position: fixed;
-  display:flex;
-  margin-top:25vh;
-  min-height: 50vh;
   background-color:rgb(19, 80, 22);
   border: #f5b7b7;
   border-style: groove;
   border-radius: 5vh;
   border-width: 1vh;
+  margin-top:25vh;
   margin-left: 5vh;
   margin-right: 125vh;
 }
-
 .home .words {
   position:relative;
   top:1vh;
   margin-left: auto;
   margin-right: auto;
   width:60rem;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 3rem;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 3vh;
   color: #efefef;
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2vh;
 }
-
+.home .words h1 {
+  font-size: 6vh;
+}
+.home .words img {
+  border-radius: 25px;
+}
 
 
 
