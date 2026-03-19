@@ -20,7 +20,7 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 body {
@@ -63,11 +63,12 @@ body {
 .container {
   display: flex;
   position: fixed;
-  top:25vh;
+  top:20vh;
   left: 5%;
   right: 5%;
   gap: 5vh;
- 
+  max-height: 80%;
+  overflow-y: scroll;
 }
 .container .welcome {
   position:relative;
@@ -81,14 +82,15 @@ body {
   border-radius: 5vh;
   border-width: 1vh;
   flex: 0.5;
+  height:fit-content;
 }
 .container .welcome .input {
-  top:1vh;
   margin-left: auto;
   margin-right: auto;
   font-family:'Courier New', Courier, monospace;
-  font-size: 3vh;
+  font-size: 4vh;
   color: #efefef;
+  padding-top:3vh;
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2vh;
@@ -110,24 +112,24 @@ body {
   border-radius: 5vh;
   border-width: 1vh;
   flex:1;
+  height:fit-content;
 }
 .container .menu .input {
-  margin-top:2vh;
   margin-left: auto;
   margin-right: auto;
   font-family:'Courier New', Courier, monospace;
-  font-size: 3vh;
+  font-size: 4vh;
   color: #efefef;
+  padding-top:3vh;
   padding-left: 2%;
   padding-right: 2%;
-  padding-bottom: 0.5vh;
+  padding-bottom: 2vh;
 }
 .container .menu .input h1{
-  font-size: 5vh;
+  font-size: 6vh;
 }
 .container .menu .input img {
-  padding-top: 2vh;
-  justify-content: center;
+  padding-top: 3vh;
 }
 
 
