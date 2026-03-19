@@ -64,16 +64,17 @@ body {
   display: flex;
   position: fixed;
   top:25vh;
-  bottom: fit-content;
   left: 5%;
   right: 5%;
   gap: 5vh;
+ 
 }
 .container .welcome {
   position:relative;
   background-color:rgb(19, 80, 22);
   top:0;
   left:0;
+  bottom:auto;
   height:auto;
   border: #f5b7b7;
   border-style: groove;
@@ -101,7 +102,7 @@ body {
 
 .container .menu {
   position:relative;
-  background-color:rgb(58, 104, 60);
+  background-color:rgb(19, 80, 22);
   top:0;
   height:auto;
   border: #f5b7b7;
@@ -111,17 +112,22 @@ body {
   flex:1;
 }
 .container .menu .input {
-  top:1vh;
+  margin-top:2vh;
   margin-left: auto;
   margin-right: auto;
   font-family:'Courier New', Courier, monospace;
-  font-size: 5em;
+  font-size: 3vh;
   color: #efefef;
   padding-left: 2%;
   padding-right: 2%;
-  padding-bottom: 2vh;
+  padding-bottom: 0.5vh;
 }
 .container .menu .input h1{
-  font-size: 6vh;
+  font-size: 5vh;
 }
+.container .menu .input img {
+  padding-top: 2vh;
+  justify-content: center;
+}
+
 
