@@ -139,6 +139,7 @@ body {
 }
 
 .img-gallery {
+  padding-top:10vh;
   width: 80%;
   margin: 100px auto 50px;
   display: grid;
@@ -159,7 +160,7 @@ body {
   position:fixed;
   top: 0;
   left: 0;
-  display:flex;
+  display:none;
   align-items: center;
   justify-content:center;
   max-height : min-content;
@@ -168,8 +169,13 @@ body {
 .full-img img{
   width: 90%;
   max-width: 500px;
-
-
 }
-
+.full-img span{
+  position:absolute;
+  top:5%;
+  right:5%;
+  font-size:30px;
+  color:white;
+  cursor:pointer;
+}
 
