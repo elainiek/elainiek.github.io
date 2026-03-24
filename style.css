@@ -81,7 +81,7 @@ body {
   border-style: groove;
   border-radius: 5vh;
   border-width: 1vh;
-  flex: 0.5;
+  flex: 0.75;
   height:fit-content;
   margin-top: 3vh;
   margin-left: 2vw;
@@ -95,7 +95,7 @@ body {
   padding-top:3vh;
   padding-left: 2%;
   padding-right: 2%;
-  padding-bottom: 1rem;
+  padding-bottom: 1vh;
 }
 .container .welcome .input h1 {
   font-size: 4vw;
