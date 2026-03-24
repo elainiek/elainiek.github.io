@@ -30,6 +30,7 @@ body {
 }
 /*Header: parent/children for the navigation bar */
 .header {
+  display:flex;
   position: fixed;
   background-color: var(--nav-color);
   display: flex;
@@ -148,7 +149,11 @@ body {
 .img-gallery img{
   width: 100%;
   cursor:pointer;
-  border-color: #f5b7b7;
+  /*border design for gallery images*/
+  border: #f5b7b7;
+  border-style: groove;
+  border-radius: 3vh;
+  border-width: 1vh;
 }
 
 /*Gallery Page: when image is clicked on, full image appears */
@@ -181,6 +186,7 @@ body {
 /*Order Page: */
 .container2 {
   color:#226240;
+  
 }
 .container2 h1 {
   padding-top: 22vh;
