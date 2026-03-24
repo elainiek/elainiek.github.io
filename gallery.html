@@ -6,16 +6,16 @@
 </head>
 <body>
   <div class="img-gallery">
-    <img src="gallery/IMG_9257.HEIC" alt="">
-    <img src="gallery/IMG_0192.HEIC" alt="">
-    <img src="gallery/IMG_0283.HEIC" alt="">
-    <img src="gallery/IMG_5284.HEIC" alt="">
-    <img src="gallery/IMG_7326.HEIC" alt="">
-    <img src="gallery/IMG_6437.HEIC" alt="">
-    <img src="gallery/IMG_6462.HEIC" alt="">
-    <img src="gallery/IMG_6765.HEIC" alt="">
-    <img src="gallery/IMG_7220.HEIC" alt="">
-    <img src="gallery/IMG_9859.HEIC" alt="">
+    <img src="gallery/IMG_9257.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_0192.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_0283.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_5284.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_7326.HEIC" onclick="openFullImg(this.src)" alt=""> 
+    <img src="gallery/IMG_6437.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_6462.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_6765.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_7220.HEIC" onclick="openFullImg(this.src)" alt="">
+    <img src="gallery/IMG_9859.HEIC" onclick="openFullImg(this.src)" alt="">
   </div>
   
   <header class="header">
@@ -27,10 +27,25 @@
       <a href="about.html">About</a>
     </nav>
   </header>
-   <div class="full-img">
-    <img src="gallery/C5C0AE93-734D-4A82-A3A1-8169F8A23E18.jpg">
-    <span>X</span>
+   <div class="full-img" id="fullImgBox">
+    <img src="gallery/IMG_0192.HEIC" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
   </div>
+
+  <script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+    // this is where we can zoom in and out on a photo in the gallery 
+    function openFullImg(pic) {
+      fullImgBox.style.display = "flex";
+      fullImg.src = pic;
+    }
+    function closeFullImg() {
+      fullImgBox.style.display = "none";
+
+    }
+
+  </script>
   
 </body>
 </html>

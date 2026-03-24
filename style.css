@@ -160,10 +160,10 @@ body {
   position:fixed;
   top: 0;
   left: 0;
+  bottom:0;
   display:none;
   align-items: center;
   justify-content:center;
-  max-height : min-content;
 
 }
 .full-img img{
