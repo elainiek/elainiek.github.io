@@ -13,7 +13,7 @@
   border:none;
   outline:none;
   text-decoration: none;
-  text-transform: capitalize;   
+  /*text-transform: capitalize; */
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   transition: all .5s ease-in;
 }
@@ -179,3 +179,26 @@ body {
   cursor:pointer;
 }
 
+.container2 {
+  color:#226240
+}
+.container2 h1 {
+  padding-top: 20vh;
+  display:fixed;
+  font-size: 10rem;
+  padding-bottom: 2rem;
+  margin-right: 95%;
+  right: 50%;
+}
+.container2 p {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* Unvisited link */
+a:link {
+  border-style: hidden;
+  border-color: var(--pink);
+  color: black;
+  text-transform: none;
+}
