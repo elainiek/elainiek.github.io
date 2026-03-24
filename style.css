@@ -39,7 +39,6 @@ body {
   top:0;
   left:0;
   right:0;
-  z-index: normal;
   height:18vh;
 
 } /*Header: shaweetie sweets logo within header*/
@@ -64,11 +63,10 @@ body {
 
 /*Home Page: container box for home page events */
 .container {
-  display: flex;
   position: fixed;
   top:18vh;
-  left: 0%;
-  right: 0%;
+  left: 5%;
+  right: 5%;
   gap: 3vw;
   max-height: 82%;
   overflow-y: scroll;
@@ -83,7 +81,6 @@ body {
   border-style: groove;
   border-radius: 5vh;
   border-width: 1vh;
-  flex: 0.75;
   height:fit-content;
   margin-top: 3vh;
   margin-left: 2vw;
@@ -94,7 +91,7 @@ body {
   font-family:'Courier New', Courier, monospace;
   font-size: 3vw;
   color: #efefef;
-  padding-top:3vh;
+  padding-top:2vh;
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 1vh;
@@ -116,7 +113,6 @@ body {
   border-style: groove;
   border-radius: 5vh;
   border-width: 1vh;
-  flex:1;
   height:fit-content;
 
   margin-right: 2vw;
