@@ -142,7 +142,7 @@ body {
 
 /*Gallery Page: parent for images*/
 .img-gallery {
-  padding-top:10vh;
+  padding-top:15vh;
   width: 80%;
   margin: 100px auto 50px;
   display: grid;
@@ -153,8 +153,8 @@ body {
   width: 100%;
   cursor:pointer;
   border-color: #f5b7b7;
-
 }
+
 /*Gallery Page: when image is clicked on, full image appears */
 .full-img{
   width: 100%;
@@ -199,9 +199,31 @@ body {
   padding-bottom:5rem;
 }
 
+.container3 {
+  margin: 22vh 10% 0vh;
+}
+.container3 .about {
+  color:rgb(18, 3, 8);
+}
+.container3 .about h1{
+  font-size: 60px;
+  font-style: italic;
+  margin-top: 22vh;
+}
+.container3 .about p{
+  font-size:30px;
+}
+.container3 .about img {
+  padding-top: 5vh;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
 
 /* Unvisited link */
 a:link {
   color: rgb(0, 0, 0);
   text-transform: none;
 }
+
