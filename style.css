@@ -200,7 +200,13 @@ body {
   font-size:3rem;
   padding-bottom:5rem;
 }
+.container2 h2 {
+  font-size:3rem;
+  padding-bottom:2rem;
+  color:#08160f;
+}
 
+/*About Page: */
 .container3 {
   margin: 22vh 10% 0vh;
 }
@@ -225,7 +231,7 @@ body {
 
 /* Unvisited link */
 a:link {
-  color: rgb(0, 0, 0);
+  color: rgb(90, 0, 128);
   text-transform: none;
 }
 
