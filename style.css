@@ -28,7 +28,7 @@ body {
   text-align: center;
   
 }
-
+/* the header parent/children for the navigation bar */
 .header {
   position: fixed;
   background-color: var(--nav-color);
@@ -39,20 +39,21 @@ body {
   top:0;
   left:0;
   right:0;
+  z-index: normal;
   height:18vh;
 
-}
+} /* shaweetie sweets logo within header*/
 .header .logo img {
   position: relative;
   height: 15vh;
   border-radius: 50%;
-}
+}/* navigation bar singular name*/
 .header .navbar a {
   position: relative;
   color:white;
   font-size: 3vh;
   margin: 0 1vh;
-}
+}/*creates a color outline on navbar name hovered over */
 .header .navbar a:hover {
   color:var(--pink);
   border-top: .3rem solid var(--pink);
@@ -61,6 +62,7 @@ body {
   padding-bottom: 0.5rem;
 }
 
+/*Home Page: container box for home page events */
 .container {
   display: flex;
   position: fixed;
@@ -70,7 +72,7 @@ body {
   gap: 3vw;
   max-height: 82%;
   overflow-y: scroll;
-}
+} /*Home Page: container left child */
 .container .welcome {
   position:relative;
   background-color:rgb(19, 80, 22);
@@ -85,7 +87,7 @@ body {
   height:fit-content;
   margin-top: 3vh;
   margin-left: 2vw;
-}
+} /*Home Page: container left child input (text)*/
 .container .welcome .input {
   margin-left: auto;
   margin-right: auto;
@@ -103,7 +105,7 @@ body {
 .container .welcome .input img {
   border-radius: 25px;
 }
-
+/*Home Page: container right child */
 .container .menu {
   position:relative;
   background-color:rgb(19, 80, 22);
@@ -119,7 +121,7 @@ body {
 
   margin-right: 2vw;
   margin-top: 3vh;
-}
+} /*Home Page: container right child input (text)*/
 .container .menu .input {
   margin-left: auto;
   margin-right: auto;
@@ -138,6 +140,7 @@ body {
   padding-top: 3vh;
 }
 
+/*Gallery Page: parent for images*/
 .img-gallery {
   padding-top:10vh;
   width: 80%;
@@ -145,14 +148,14 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
   gap: 30px;
-}
+} /*Gallery Page: each image*/
 .img-gallery img{
   width: 100%;
   cursor:pointer;
   border-color: #f5b7b7;
 
 }
-
+/*Gallery Page: when image is clicked on, full image appears */
 .full-img{
   width: 100%;
   height: 100vh;
@@ -165,11 +168,11 @@ body {
   align-items: center;
   justify-content:center;
 
-}
+}/*Gallery Page: image description*/
 .full-img img{
   width: 90%;
   max-width: 500px;
-}
+}/*Gallery Page: X for exiting out of image*/
 .full-img span{
   position:absolute;
   top:5%;
@@ -179,26 +182,26 @@ body {
   cursor:pointer;
 }
 
+/*Order Page: */
 .container2 {
-  color:#226240
+  color:#226240;
 }
 .container2 h1 {
-  padding-top: 20vh;
+  padding-top: 22vh;
   display:fixed;
   font-size: 10rem;
-  padding-bottom: 2rem;
-  margin-right: 95%;
-  right: 50%;
+  padding-bottom: 5rem;
+ 
 }
 .container2 p {
-  font-size: 3rem;
-  padding-bottom: 2rem;
+  border-color: black;
+  font-size:3rem;
+  padding-bottom:5rem;
 }
+
 
 /* Unvisited link */
 a:link {
-  border-style: hidden;
-  border-color: var(--pink);
-  color: black;
+  color: rgb(0, 0, 0);
   text-transform: none;
 }
