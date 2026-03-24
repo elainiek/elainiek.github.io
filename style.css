@@ -28,7 +28,7 @@ body {
   text-align: center;
   
 }
-/* the header parent/children for the navigation bar */
+/*Header: parent/children for the navigation bar */
 .header {
   position: fixed;
   background-color: var(--nav-color);
@@ -42,18 +42,18 @@ body {
   z-index: normal;
   height:18vh;
 
-} /* shaweetie sweets logo within header*/
+} /*Header: shaweetie sweets logo within header*/
 .header .logo img {
   position: relative;
   height: 15vh;
   border-radius: 50%;
-}/* navigation bar singular name*/
+} /*Header: navigation bar singular name*/
 .header .navbar a {
   position: relative;
   color:white;
   font-size: 3vh;
   margin: 0 1vh;
-}/*creates a color outline on navbar name hovered over */
+} /*Header: creates a color outline on navbar name hovered over */
 .header .navbar a:hover {
   color:var(--pink);
   border-top: .3rem solid var(--pink);
