@@ -3,6 +3,7 @@
   --nav-color: #6aad86;
   --bg-color: #abcab8; 
   --pink: #f5b7b7;
+  --home-block: #4c7c60;
 
 
 }
@@ -74,14 +75,14 @@ body {
 } /*Home Page: container left child */
 .container .welcome {
   position:relative;
-  background-color:rgb(19, 80, 22);
+  background-color: var(--home-block);
   top:0;
   left:0;
   bottom:auto;
   border: #f5b7b7;
   border-style: groove;
   border-radius: 5vh;
-  border-width: 1vh;
+  border-width: 1.5vh;
   height:fit-content;
   margin-top: 3vh;
   margin-left: 2vw;
@@ -106,14 +107,14 @@ body {
 /*Home Page: container right child */
 .container .menu {
   position:relative;
-  background-color:rgb(19, 80, 22);
+  background-color:#4c7c60;
   top:0;
   right:0%;
   height:auto;
   border: #f5b7b7;
   border-style: groove;
   border-radius: 5vh;
-  border-width: 1vh;
+  border-width: 1.5vh;
   height:fit-content;
 
   margin-right: 2vw;
@@ -191,7 +192,7 @@ body {
 .container2 h1 {
   padding-top: 22vh;
   display:fixed;
-  font-size: 10rem;
+  font-size: 5rem;
   padding-bottom: 5rem;
  
 }
@@ -227,6 +228,17 @@ body {
   justify-content: center;
   width: 60%;
 }
+
+/*home page TEST*/
+.welcomeContainer {
+  position: fixed;
+  top:18vh;
+  left: 5%;
+  right: 5%;
+  max-height: 40%;
+  overflow-y: scroll;
+}
+
 
 
 /* Unvisited link */
