@@ -18,15 +18,43 @@ body {
 }
 
 /* Style the header */
-.header {
+.topnav {
+  display: flex;
+  overflow: hidden;
   background-color: var(--nav-color);
-  padding: 10px;
-  font-size: 35px;
-  max-height: 20%;
+  padding: 15px;
+  max-height: 120px;
+} /*Header: shaweetie sweets logo within header*/
+.topnav .logo img {
+  height: 80px;
+  border-radius: 50%;
+} 
+.topnav .cont a {
+  
+
+}
+/* Style the topnav links */
+.topnav a {
+  position: relative;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 5vh;
+  text-decoration: none;
+  font-size: 5vh;
+} /* Change color on hover */
+.topnav a:hover {
+  color:var(--pink);
+  border-top: .3rem solid var(--pink);
+  border-bottom: .3rem solid var(--pink);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
+  background-color: var(--main-color);
   float: left;
   width: 33.33%;
   padding: 10px;
