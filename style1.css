@@ -20,21 +20,19 @@ body {
 /* Style the header */
 .topnav {
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   background-color: var(--nav-color);
-  padding: 15px;
-  max-height: 120px;
+  max-height: 200px;
 } /*Header: shaweetie sweets logo within header*/
 .topnav .logo img {
-  height: 80px;
+  position: relative;
+  height: 100px;
   border-radius: 50%;
-} 
-.topnav .cont a {
-  
+  padding: 10px 10px;
+} /*Header: navigation bar singular name*/
 
-}
 /* Style the topnav links */
-.topnav a {
+.topnav .link a {
   position: relative;
   float: left;
   display: block;
@@ -56,9 +54,9 @@ body {
 .column {
   background-color: var(--main-color);
   float: left;
-  width: 33.33%;
+  width: 100%;
   padding: 10px;
-  height: 800px; /* Should be removed. Only for demonstration */
+  height: 200px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
